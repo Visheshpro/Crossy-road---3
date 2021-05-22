@@ -4,7 +4,7 @@ class Car{
         this.y = height-random([150,250,350,950,1050,1150,1750,1850,1950]);
         this.spt = createSprite(this.x,this.y);
         this.spt.shapeColor = "blue";
-        this.spt.scale=0.5;
+        this.spt.scale=0.6;
         this.spt.addAnimation("car1", car1)
         this.spt.scale = 0.07
 

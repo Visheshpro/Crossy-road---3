@@ -53,7 +53,7 @@ function setup() {
  }
 
 function draw() {
-  background("skyblue"); 
+  background("blue"); 
 
 if (carGroup1.isTouching(player.spt)){
 
